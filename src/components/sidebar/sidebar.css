@@ -1,0 +1,35 @@
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.aside {
+  background-color: #fff;
+  width: 270px;
+  height: 100%;
+}
+
+.aside > .side-unordered-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.aside > div {
+  margin: 18px;
+  margin-top: 0;
+  padding-top: 18px;
+}
+
+.aside > div:first-child {
+  font-size: 24px;
+}
+
+.side-unordered-list > li {
+  padding: 18px;
+  border-bottom: 1.75px solid rgba(0, 0, 0, 0.1);
+}

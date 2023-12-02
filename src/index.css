@@ -1,0 +1,11 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-size: 18px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}

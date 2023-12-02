@@ -1,0 +1,27 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d5bdaf;
+  padding: 40px 0;
+}
+.footer-container > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.footer-container > ul > li:first-child {
+  font-weight: bold;
+}
+
+.stay-connected > li:last-child {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    /* flex-direction: column; */
+  }
+}
